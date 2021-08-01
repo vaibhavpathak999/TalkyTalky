@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+.appName{
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    color: #282C34;
+}
+
+.mycard{
+    max-width: 500px;
+    align-items: center;
+    padding: 2%;
+    margin: 1% auto;
+    background-color: #E0E0E0;
+}
+
+.inputBox{
+    margin: 10px !important;
+}
+
+.signinBtn{
+    margin: 5% 35%;
+    width: 100px;
+    height: 45px;
+    border-radius: 57px;
+    border-color: white;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0) !important;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff !important;
+}
+.signinBtn :hover{
+    box-shadow:  6px 6px 12px #bebebe,
+             -6px -6px 12px #ffffff !important;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: auto;
+    max-height: 900px;
+    padding: 2%;
+    align-items: flex-start !important;
+}
+.item{
+    width: 290px;
+    height:290px;
+    margin: 5px 5px;
+}
+
+
+
+.gallery::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+.gallery::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+.gallery::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+.profile{
+    align-content:center;
+    margin:0px 25%;
+}
+
+.home-card{
+    color:rgb(49, 46, 46);
+    max-width: 500px;
+    max-height: max-content;
+    margin: 10px auto;
+    
+}
+
+.create-post{
+    padding: 3%;
+}
+.createCard{
+    max-width: 650px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 2%;
+}
+
+
+@media (max-width:767px){
+    .item {
+      width: 180px !important; 
+      height: 180px !important;
+    }
+
+    .profile{
+        margin:0px 1%;
+    }
+   }
